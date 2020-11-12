@@ -7,22 +7,24 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using CafeOnline.Models;
 
+
 namespace CafeOnline.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private IStoreRepository repository;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IStoreRepository repo)
         {
-            _logger = logger;
+            repository = repo;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+        /* public IActionResult Index()
+         {
+             return View();
+         }*/
+        public IActionResult Index() => View(repository.Products);
+        
         public IActionResult Privacy()
         {
             return View();

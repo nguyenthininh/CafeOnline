@@ -29,9 +29,10 @@ namespace CafeOnline
             services.AddDbContext<StoreDbContext>(opts =>
             {
                 opts.UseSqlServer(
-                    Configuration["ConnectionStrings:eshopConnection"]
+                    Configuration["ConnectionStrings:CafeOnlineConnection"]
                     );
             });
+            services.AddScoped<IStoreRepository, EFStoreRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,6 +61,7 @@ namespace CafeOnline
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            SeedData.EnsurePopulated(app);
         }
     }
 }
