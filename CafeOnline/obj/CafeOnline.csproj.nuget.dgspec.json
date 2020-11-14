@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SEM3\\ASP.NET\\Assignment\\CafeOnline\\CafeOnline\\CafeOnline.csproj": {}
+    "D:\\projects\\CafeOnline\\CafeOnline\\CafeOnline.csproj": {}
   },
   "projects": {
-    "D:\\SEM3\\ASP.NET\\Assignment\\CafeOnline\\CafeOnline\\CafeOnline.csproj": {
+    "D:\\projects\\CafeOnline\\CafeOnline\\CafeOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SEM3\\ASP.NET\\Assignment\\CafeOnline\\CafeOnline\\CafeOnline.csproj",
+        "projectUniqueName": "D:\\projects\\CafeOnline\\CafeOnline\\CafeOnline.csproj",
         "projectName": "CafeOnline",
-        "projectPath": "D:\\SEM3\\ASP.NET\\Assignment\\CafeOnline\\CafeOnline\\CafeOnline.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\SEM3\\ASP.NET\\Assignment\\CafeOnline\\CafeOnline\\obj\\",
+        "projectPath": "D:\\projects\\CafeOnline\\CafeOnline\\CafeOnline.csproj",
+        "packagesPath": "C:\\Users\\Nanachi\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\CafeOnline\\CafeOnline\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nanachi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,10 +38,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -79,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
