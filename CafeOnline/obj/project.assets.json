@@ -7295,19 +7295,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nanachi\\.nuget\\packages\\": {}
+    "C:\\Users\\nguye\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\CafeOnline\\CafeOnline\\CafeOnline.csproj",
+      "projectUniqueName": "D:\\SEM3\\ASP.NET\\Assignment\\CafeOnline\\CafeOnline\\CafeOnline.csproj",
       "projectName": "CafeOnline",
-      "projectPath": "D:\\projects\\CafeOnline\\CafeOnline\\CafeOnline.csproj",
-      "packagesPath": "C:\\Users\\Nanachi\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\CafeOnline\\CafeOnline\\obj\\",
+      "projectPath": "D:\\SEM3\\ASP.NET\\Assignment\\CafeOnline\\CafeOnline\\CafeOnline.csproj",
+      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+      "outputPath": "D:\\SEM3\\ASP.NET\\Assignment\\CafeOnline\\CafeOnline\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nanachi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7368,7 +7368,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
